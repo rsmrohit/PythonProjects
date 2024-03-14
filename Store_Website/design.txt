@@ -1,0 +1,23 @@
+Purchasing - buy from x, y, z takes note of those
+Inventory - updating database inventory 
+	expiry date by batch
+	quantities
+	price
+Sales - user can select item and quantity
+	Send invoice with receipt
+
+There is a common database of goods, users can interact with said page to order items and the purchaser uses the website to input the goods that have been given
+
+Webpages
+    Home
+    Purchasing
+Item 
+    Expiry Date 
+    Price 
+    Batch 
+Inventory 
+    Handles database of goods 
+    get_items(q)
+    _add_items(q)
+    add_batch()
+    remove_items(q)
