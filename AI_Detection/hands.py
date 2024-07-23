@@ -84,7 +84,7 @@ with mp_hands.Hands(
                 #     if thumb_px and index_px:
 
                 #         dm.lightning(send, thumb_px, index_px)
-
+                #####
                 mp_drawing.draw_landmarks(
                     image,
                     (hand_landmarks if draw_dots else None),
